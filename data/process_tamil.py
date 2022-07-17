@@ -13,7 +13,8 @@ for tamil_lyric in tamil_lyrics:
     tamil_lyric["title"] = tamil_lyric["title"][0].strip()
     tamil_lyric["index"] = list(tamil_lyric["title"][0][0])[0]
 
-    if not tamil_lyric["index"].isdigit() and tamil_lyric["index"] not in ['ஹ', '"', 'Þ', 'ஐ']:
+    if not tamil_lyric["index"].isdigit() and tamil_lyric["index"]\
+            not in ['ஹ', '"', 'Þ', 'ஐ', 'ற', 'ள', 'ழ']:
         tamil_letters.add(list(tamil_lyric["title"][0][0])[0])
         tamil_lyrics_new.append(tamil_lyric)
 
