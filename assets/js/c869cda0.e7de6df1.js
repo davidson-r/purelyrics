@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[80316],{48542:e=>{e.exports=JSON.parse('{"label":"Genesis","permalink":"/purelyrics/english/tags/genesis","allTagsPath":"/purelyrics/english/tags","count":1,"items":[{"id":"intro","title":"Genesis 1","description":"---","permalink":"/purelyrics/english/intro"}]}')}}]);
