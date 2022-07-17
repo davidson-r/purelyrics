@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.theme-doc-markdown {
+  font-size: xx-large
+}
+
+.theme-doc-markdown>header {
+  color: rgb(110, 109, 109)
+}
