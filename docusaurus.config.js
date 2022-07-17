@@ -83,7 +83,7 @@ const config = {
             to: "/tamil/",
           },
           {
-            to: "/english/intro", // ./docs-api/Intro.md
+            to: "/english/A/A Babe is born in Bethlehem", // ./docs-api/Intro.md
             label: "English",
             position: "left",
             activeBaseRegex: `/english/`,
