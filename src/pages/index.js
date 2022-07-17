@@ -30,12 +30,18 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+    // title={`Hello from ${siteConfig.title}`}
+    // description="Description will go into a meta tag in <head />"
+    >
+      {/* <HomepageHeader />
       <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
+      <br />
+      <div className="container">
+        Welcome to PureLyrics, Browse our English and Tamil christian lyrics
+        collection.
+      </div>
     </Layout>
   );
 }

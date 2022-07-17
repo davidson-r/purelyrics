@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "PureLyrics",
-  tagline: "Dinosaurs are cool",
+  tagline: "Home to Tamil and English Christian lyrics",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  // favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -70,10 +70,10 @@ const config = {
     ({
       navbar: {
         title: "PureLyrics",
-        logo: {
-          alt: "PureLyrics",
-          src: "img/logo.svg",
-        },
+        // logo: {
+        //   alt: "PureLyrics",
+        //   src: "img/logo.svg",
+        // },
         items: [
           {
             type: "doc",
