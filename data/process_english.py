@@ -1,5 +1,6 @@
 import json
 import os
+from slugify import slugify
 
 
 with open("data/lyrics.json") as f:
@@ -39,7 +40,7 @@ for lyric in english_lyrics:
         "!", "").strip()
 
     write_path = "english/" + lyric["letter"].capitalize() + \
-        '/' + lyric["title"] + '.md'
+        '/' + slugify(lyric["title"]) + '.md'
 
     lyric = prep_md(lyric)
 

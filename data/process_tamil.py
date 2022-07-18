@@ -69,6 +69,13 @@ for idx, lyrics in enumerate(tamil_lyrics_new):
     label = " ".join(lyrics['title'].split(' ')[0:5]
                      ).replace("?", "").replace("!", "").replace("(", "").replace(")", "")
     label = label.strip()
+
+    label = label.replace(' ', '-')
+
+    while '--' in label:
+        label = label.replace('--', '-')
+
+
     lyric = prep_md(lyrics, idx)
 
     write_path = "docs/" + letters[lyrics['index']] + \
