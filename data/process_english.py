@@ -40,7 +40,7 @@ for lyric in english_lyrics:
         "!", "").strip()
 
     write_path = "english/" + lyric["letter"].capitalize() + \
-        '/' + slugify(lyric["title"]) + '.md'
+        '/' + lyric['slug'] + '.md'
 
     lyric = prep_md(lyric)
 

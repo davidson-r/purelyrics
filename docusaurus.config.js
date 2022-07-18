@@ -1,8 +1,10 @@
+var redirects = require("./data/redirects.json");
+
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -63,6 +65,25 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: redirects.map((x) => ({ to: x.to, from: x.from })),
+
+        // [
+        //   // /docs/oldDoc -> /docs/newDoc
+        //   {
+        //     to: "/docs/newDoc",
+        //     from: "/docs/oldDoc",
+        //   },
+        //   // Redirect from multiple old paths to the new path
+        //   {
+        //     to: "/docs/newDoc2",
+        //     from: ["/docs/oldDocFrom2019", "/docs/legacyDocFrom2016"],
+        //   },
+        // ],
+      },
+    ],
   ],
 
   themeConfig:
@@ -77,13 +98,13 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "அ/அக்கினி அபிஷேகம் - தந்து ஆவி",
+            docId: "அ/அக்கினி-அபிஷேகம்-ஈந்திடும்-தேவ-ஆவியால்",
             position: "left",
             label: "Tamil",
             to: "/tamil/",
           },
           {
-            to: "/english/A/A Babe is born in Bethlehem", // ./docs-api/Intro.md
+            to: "/english/A/a-babe-is-born-in-bethlehem", // ./docs-api/Intro.md
             label: "English",
             position: "left",
             activeBaseRegex: `/english/`,

@@ -16,6 +16,17 @@ for tamil_lyric in tamil_lyrics:
     if not tamil_lyric["index"].isdigit() and tamil_lyric["index"]\
             not in ['ஹ', '"', 'Þ', 'ஐ', 'ற', 'ள', 'ழ']:
         tamil_letters.add(list(tamil_lyric["title"][0][0])[0])
+
+        # generate slug
+
+        slug = " ".join(tamil_lyric['title'].split(' ')[0:5]
+                        ).replace("?", "").replace("!", "").replace("(", "").replace(")", "")
+        slug = slug.strip()
+        slug = slug.replace(' ', '-')
+        while '--' in slug:
+            slug = slug.replace('--', '-')
+        tamil_lyric['slug'] = slug
+
         tamil_lyrics_new.append(tamil_lyric)
 
 
@@ -66,20 +77,10 @@ for idx, lyrics in enumerate(tamil_lyrics_new):
     # lyrics = tamil_lyrics_new[0]
     # print(lyrics)
 
-    label = " ".join(lyrics['title'].split(' ')[0:5]
-                     ).replace("?", "").replace("!", "").replace("(", "").replace(")", "")
-    label = label.strip()
-
-    label = label.replace(' ', '-')
-
-    while '--' in label:
-        label = label.replace('--', '-')
-
-
     lyric = prep_md(lyrics, idx)
 
     write_path = "docs/" + letters[lyrics['index']] + \
-        '/' + label + '.md'
+        '/' + lyrics['slug'] + '.md'
 
     # write_path = os.path.join(os.path.abspath(os.curdir), write_path)
 
