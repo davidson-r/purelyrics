@@ -18,9 +18,11 @@ for lyrics in tamil_lyrics:
 
 
 for lyrics in english_lyrics:
-    redirects.append({
-        "from": f"/lyrics/{lyrics['slug']}.html",
-        "to": f"/english/{lyrics['letter'].capitalize()}/{lyrics['slug']}"})
+    if lyrics['title'].count(' ') > 0:
+        redirects.append({
+            "from": f"/lyrics/{lyrics['slug']}.html",
+            "to": f"/english/{lyrics['letter'].capitalize()}/{lyrics['slug']}"})
+
 
 
 with open('data/redirects.json', 'w') as f:

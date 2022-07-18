@@ -3960,10 +3960,6 @@
         "to": "/english/D/do-something-for-jesus"
     },
     {
-        "from": "/lyrics/doxology.html",
-        "to": "/english/D/doxology"
-    },
-    {
         "from": "/lyrics/dost-thou-in-a-manger-lie.html",
         "to": "/english/D/dost-thou-in-a-manger-lie"
     },
@@ -4050,10 +4046,6 @@
     {
         "from": "/lyrics/eternal-rest.html",
         "to": "/english/E/eternal-rest"
-    },
-    {
-        "from": "/lyrics/eternity.html",
-        "to": "/english/E/eternity"
     },
     {
         "from": "/lyrics/evening-and-morning.html",
@@ -4354,10 +4346,6 @@
     {
         "from": "/lyrics/gentle-shepherd-thou-hast-stilled.html",
         "to": "/english/G/gentle-shepherd-thou-hast-stilled"
-    },
-    {
-        "from": "/lyrics/gethsemane.html",
-        "to": "/english/G/gethsemane"
     },
     {
         "from": "/lyrics/give-heed-my-heart.html",
@@ -4800,10 +4788,6 @@
         "to": "/english/H/high-word-of-god"
     },
     {
-        "from": "/lyrics/himself.html",
-        "to": "/english/H/himself"
-    },
-    {
         "from": "/lyrics/his-cheering-message-from-the-grave.html",
         "to": "/english/H/his-cheering-message-from-the-grave"
     },
@@ -5164,10 +5148,6 @@
         "to": "/english/I/ivory-palaces"
     },
     {
-        "from": "/lyrics/jerusalem.html",
-        "to": "/english/J/jerusalem"
-    },
-    {
         "from": "/lyrics/jehovah-is-my-light.html",
         "to": "/english/J/jehovah-is-my-light"
     },
@@ -5294,10 +5274,6 @@
     {
         "from": "/lyrics/joyfully-sing.html",
         "to": "/english/J/joyfully-sing"
-    },
-    {
-        "from": "/lyrics/jubilate.html",
-        "to": "/english/J/jubilate"
     },
     {
         "from": "/lyrics/just-a-little-sunshine.html",
@@ -6408,10 +6384,6 @@
         "to": "/english/P/palms-of-glory"
     },
     {
-        "from": "/lyrics/paradise.html",
-        "to": "/english/P/paradise"
-    },
-    {
         "from": "/lyrics/peace-troubled-soul.html",
         "to": "/english/P/peace-troubled-soul"
     },
@@ -6600,10 +6572,6 @@
         "to": "/english/R/return-of-summer"
     },
     {
-        "from": "/lyrics/resurrection.html",
-        "to": "/english/R/resurrection"
-    },
-    {
         "from": "/lyrics/righteous-father-we-have-wronged-thee.html",
         "to": "/english/R/righteous-father-we-have-wronged-thee"
     },
@@ -6730,10 +6698,6 @@
     {
         "from": "/lyrics/servant-of-god-well-done.html",
         "to": "/english/S/servant-of-god-well-done"
-    },
-    {
-        "from": "/lyrics/shadows.html",
-        "to": "/english/S/shadows"
     },
     {
         "from": "/lyrics/shall-man-o-god-of-light-and-life.html",
@@ -7342,10 +7306,6 @@
     {
         "from": "/lyrics/verily-verily-i-say-unto-you.html",
         "to": "/english/V/verily-verily-i-say-unto-you"
-    },
-    {
-        "from": "/lyrics/victorious.html",
-        "to": "/english/V/victorious"
     },
     {
         "from": "/lyrics/victory-ahead.html",
