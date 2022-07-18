@@ -11,7 +11,7 @@ const config = {
   title: "PureLyrics",
   tagline: "Home to Tamil and English Christian lyrics",
   url: "https://davidson-r.github.io",
-  baseUrl: "/purelyrics/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   // favicon: "img/favicon.ico",
