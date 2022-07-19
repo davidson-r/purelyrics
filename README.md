@@ -1,1 +1,1 @@
-This site is live in [purelyrics.org](purelyrics.org)
+This site is live in [purelyrics.org](https://purelyrics.org/)
