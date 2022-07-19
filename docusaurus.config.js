@@ -10,7 +10,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "PureLyrics",
   tagline: "Home to Tamil and English Christian lyrics",
-  url: "https://davidson-r.github.io",
+  url: "https://purelyrics.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
