@@ -59,6 +59,12 @@ const config = {
           filename: "sitemap.xml",
         },
       }),
+      {
+        googleAnalytics: {
+          trackingID: "UA-148922651-1",
+          anonymizeIP: false,
+        },
+      },
     ],
   ],
   plugins: [
