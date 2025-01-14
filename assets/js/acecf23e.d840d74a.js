@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpurelyrics_2=self.webpackChunkpurelyrics_2||[]).push([[81903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/purelyrics/blog","blogTitle":"Blog","authorsListPath":"/purelyrics/blog/authors"}')}}]);
