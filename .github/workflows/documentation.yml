@@ -41,6 +41,7 @@ jobs:
 
       - name: Add CNAME File
         run: |
+          mkdir -p build
           echo "purelyrics.org" > build/CNAME
 
       - name: Release to GitHub Pages
