@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpurelyrics_2=self.webpackChunkpurelyrics_2||[]).push([[59029],{25355:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/purelyrics/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
